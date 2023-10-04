@@ -1,0 +1,115 @@
+@import "@fontsource/nunito";
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+.card_icon_hidden {
+  display: none;
+}
+
+.card_icon {
+  position: absolute;
+  bottom: 8rem;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  left: 4.5rem;
+  transition: all 0.3s ease;
+  justify-content: space-around;
+}
+
+.card-root {
+  transition: scale 0.2s ease-in-out;
+}
+
+.title_font {
+  color: orange;
+  font-weight: 600;
+  font-family: Dancing Script;
+}
+
+.title_text {
+  color: black;
+  font-family: math;
+  margin: 2rem 0rem;
+}
+
+.zoom {
+  transform: "scale(1.25)";
+}
+
+.froot {
+  background-image: url(../image/bg_pattern2.png);
+  background-size: cover;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.1em;
+  width: 100vw;
+  height: auto;
+  left: 0;
+  position: relative;
+  max-width: 100vw;
+  padding: 2rem;
+  padding-bottom: 4rem;
+  padding-top: 8rem;
+  -webkit-clip-path: polygon(0 0, 100% 3vw, 100% 100%, 0 calc(100% - 3vw));
+  clip-path: polygon(0 0, 100% 3vw, 100% 100%, 0 calc(100% - 3vw));
+  margin-top: -12rem;
+}
+.filter_options {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  margin: 1rem 0rem;
+}
+.filter_options_buttons {
+  width: 100px;
+  height: 40px;
+  background-color: #f4d336;
+  border-radius: 20px;
+}
+.card-root:hover {
+  scale: 1.1;
+}
+.card-name {
+  font-family: Alkatre;
+  color: rgb(47, 28, 28);
+  font-weight: 800;
+}
+.card-price {
+  font-family: Archivo;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 640px) {
+  .froot {
+    padding: 2rem;
+    height: auto;
+    padding-top: 4rem;
+    margin-top: -1rem;
+  }
+
+  .card-root:hover {
+    scale: 1;
+  }
+
+  .filter_options_buttons {
+    width: 65px;
+    height: 30px;
+    background-color: #f4d336;
+    border-radius: 20px;
+  }
+  .filter_options {
+    display: flex;
+    gap: 10px;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 100%;
+    height: 10%;
+  }
+}

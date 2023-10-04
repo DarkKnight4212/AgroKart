@@ -1,0 +1,46 @@
+.main_fluid-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../../assets/Tractor copy.jpg");
+  background-size: cover;
+  display: flex;
+  position: relative;
+  max-width: 100vw;
+  -webkit-clip-path: polygon(0 0, 100% 3vw, 100% 100%, 0 calc(100% - 3vw));
+  clip-path: polygon(0 0, 100% 3vw, 100% 100%, 0 calc(100% - 3vw));
+  margin: 0px;
+  margin-top: -3rem;
+}
+
+/* For top heading */
+.head-text-div {
+  margin-top: 60px;
+  margin-bottom: 8px;
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.view-more-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(154, 0, 0);
+}
+.view-more-link:hover {
+  color: rgb(0, 0, 0);
+}
+
+.font-temp {
+  font-family: Nunito;
+}
+
+@media screen and (max-width: 640px) {
+  .main_fluid-container {
+    height: 60vh;
+    background-image: url("../../../assets/tractorsmall.avif");
+    -webkit-clip-path: polygon(0 0, 100% 3vw, 100% 100%, 0 calc(100% - 3vw));
+    clip-path: polygon(0 0, 100% 3vw, 100% 100%, 0 calc(100% - 3vw));
+    margin-top: -4rem;
+  }
+}

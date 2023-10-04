@@ -1,0 +1,94 @@
+.top-ml-content {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4CAF50;
+  text-shadow: 1.8px 1.8px #4CAF50;
+  letter-spacing: 3px;
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+.ml-container {
+    display: flex;
+  }
+  
+.ml-section {
+    width: 50%;
+    padding: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    transition:  scale 0.2s ease-in-out;
+    background-image: url('./images/crop.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius:6%;
+    border: 0.3rem solid rgba(128, 128, 128, 0.7);
+  }
+
+
+  /* Left ML section */
+  .left-ml-section{
+    animation-name: LeftSlideIn;
+    animation-duration: 1.2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  @keyframes LeftSlideIn {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+
+
+
+
+  /* Right ML section */
+  .right-ml-section{
+    animation-name: rightSlideIn;
+    animation-duration: 1.2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+  
+  @keyframes rightSlideIn {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+
+
+  .ml-section:hover {
+    scale: 1.04;
+  }
+
+  .ml-btn-link:hover {
+    color: #C3C3BB;
+  }
+
+
+/* new  */
+
+

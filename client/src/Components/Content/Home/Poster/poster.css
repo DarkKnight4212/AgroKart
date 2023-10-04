@@ -1,0 +1,18 @@
+.posterRoot{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 17rem;
+    width: 80%;
+    margin: 5rem 9rem;
+}
+
+.poster1{
+    width: 45%;
+    height: 100%;
+}
+
+.poster2{
+    width: 45%;
+    height: 100%;
+}

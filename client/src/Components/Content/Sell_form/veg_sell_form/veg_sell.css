@@ -1,0 +1,123 @@
+.form_root {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  min-height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: /*linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.8) 50%,
+      rgba(43, 43, 43, 0.8) 50%,
+      rgba(0, 0, 0, 0.8) 100%
+        /* rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 32%,
+      rgba(255, 255, 255, 0.1) 32%, rgba(25, 55, 225, 0.5) 68%,
+      rgba(0, 0, 0, 0.5) 68%, rgba(0, 0, 0, 0.5) 100% 
+    ),*/
+    url("./images/finale.jpg");
+}
+
+.flexb {
+  padding: 0;
+  margin: 2%;
+  height: 50%;
+  /* flex-direction: column; */
+}
+.centre {
+  margin-left: 10%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+label {
+  display: block;
+}
+
+.veg-sell-input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.blue-outline {
+  outline-color: #42a5f5;
+}
+
+.sell-field {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(6, 6, 6));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: lighter;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+textarea {
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 2px 0 2px 6px;
+}
+.ab {
+  background-color: rgb(71, 153, 63, 0);
+  background-position: center;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 5%;
+  padding-right: 5%;
+  align-items: stretch;
+}
+
+.animate-charcter {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 25%,
+    #ff1361 62%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+.success {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  max-width: max-content;
+  background-color: #2c28a7;
+  color: #fff;
+  margin: 4%;
+  transition: 1.2s linear;
+}
+
+.success:hover {
+  background-color: #65148e;
+  border-radius: 5rem;
+  cursor: pointer;
+  z-index: 3rem;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}

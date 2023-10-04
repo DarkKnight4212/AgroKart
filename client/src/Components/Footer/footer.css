@@ -1,0 +1,114 @@
+.footer {
+    background-color: #414141;
+    color: white;
+}
+
+.footer-horizontal-line {
+    border: 0.5px solid #666;
+}
+
+.footer-h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 4%;
+    margin-top: 3%;
+}
+
+.footer-text-font {
+    font-family: Sans-Serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #999;
+}
+
+.footer-div1-font {
+    font-family: Sans-Serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+}
+
+.footer-social-media-icons {
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 1.7rem;
+}
+
+
+
+/* Head of footer */
+.footer-head {
+    margin-left: 6%;
+    margin-right: 6%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+.footer-head-col {
+    padding: 0 2rem 0 2rem;
+}
+
+.footer-head-div-1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-head-div-2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+
+
+/* Base of footer */
+.footer-base {
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+}
+
+.footer-lower-right {
+    text-align: right;
+}
+
+
+.cs-links {
+    text-decoration: none;
+    color: #999;
+}
+
+.cs-links:hover {
+    color: #666;
+    text-decoration: underline;
+  }
+
+.sm-icons-links {
+    text-decoration: none;
+    color: white;
+}
+
+.sm-icons-links:hover {
+    color: #dee3de
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* Media Queries */
+
+/* For small Size */
+.footer-text-font-mobile {
+    font-family: Sans-Serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #999;
+    margin: 0.16rem;
+}
+
+@media screen and (max-width: 750px) {
+    .footer-head{
+        display: none;
+    }
+}

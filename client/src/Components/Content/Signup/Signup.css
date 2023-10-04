@@ -1,0 +1,178 @@
+.sign-container .left-side {
+  height: 100%;
+  width: 50%;
+  background-color: #78b4a9;
+}
+.sign-container .right-side {
+  height: 100%;
+  width: 50%;
+  background-color: #00715d;
+  color: white;
+  opacity: 86%;
+}
+
+.sign-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  /* margin-top:-7rem; */
+}
+
+.sign-container .right-head {
+  text-align: center;
+  font-size: xx-large;
+  padding: 2rem 0rem;
+}
+
+.sign-container .input-con {
+  color: rgb(0, 0, 0);
+  display: flex;
+  width: 75%;
+  height: 8%;
+  justify-content: end;
+}
+
+.sign-container .input-root {
+  margin: -0.5rem 6%;
+  width: 85%;
+  display: flex;
+  height: 80%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sign-container label {
+  /* padding: 1rem 0rem; */
+  font-size: large;
+  width: 47%;
+}
+
+.sign-container input {
+  padding: 0rem;
+  border-radius: 2rem;
+  height: 2.5rem;
+  padding: 0rem 1rem;
+  width: 60%;
+  border: 0px;
+}
+
+.sign-container .btn-temp {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sign-container .submit-btn {
+  width: 70%;
+  height: 10%;
+  border-radius: 2rem;
+  background-color: #f4d336;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.sign-container .radio-btn {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.rdbtn-temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pro-img-main {
+  width: 29%;
+  height: 33%;
+  border-radius: 27rem;
+  padding: 0rem;
+  background-color: white;
+}
+
+.left-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+  justify-content: space-evenly;
+}
+.sign-container .input-root label {
+  color: white;
+}
+
+.mobile-usertype {
+  display: none;
+}
+
+.mobile-profile {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .sign-container {
+    height: 110vh;
+  }
+  .sign-container .right-side {
+    width: 100%;
+  }
+  .sign-container .input-con {
+    flex-direction: column;
+    width: 95%;
+    height: 10%;
+  }
+  .sign-container input {
+    width: 85%;
+  }
+  .sign-container .radio-btn {
+    width: 85%;
+  }
+  .sign-container .input-root {
+    width: 100%;
+    height: 85%;
+    /* height: fit-content; */
+  }
+  .sign-container .submit-btn {
+    height: 3rem;
+    width: 85%;
+    align-self: start;
+  }
+  .mobile-usertype {
+    display: block;
+    color: rgb(0, 0, 0);
+    display: flex;
+    width: 95%;
+    height: 8%;
+    justify-content: start;
+  }
+  .mobile-usertype label {
+    width: 85%;
+  }
+  .mobile-profile {
+    display: block;
+    color: rgb(0, 0, 0);
+    display: flex;
+    width: 95%;
+    height: 8%;
+    justify-content: start;
+  }
+}
+.Great:hover {
+  font-weight: bold;
+  color: #0000b3;
+  text-decoration: none;
+}
+.arya {
+  margin-top: 10rem;
+  padding: -100rem;
+}
+#gender {
+  margin-left: -6.5rem;
+  font-size: larger;
+}
+.gg {
+  margin-left: 10px;
+}

@@ -1,0 +1,2 @@
+const RazorPay=require('razorpay');
+

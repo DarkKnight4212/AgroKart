@@ -1,0 +1,115 @@
+.card {
+    border: none;
+	box-shadow: 0 2px 14px rgba(0,0,0,0.5);
+}
+.card-body {
+	color: black;
+	background: white;
+}
+.card-title {
+    transition: all .5s ease-in-out;
+}
+
+.price {   
+    transition: .6s;
+}
+/* .card:hover .price{
+    animation: pulse .5s ease-in-out infinite;
+}
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(.95);
+    }
+    0%{
+        transform: scale(1);
+    }
+}
+.card:hover .card-title{
+    letter-spacing: 5px;
+    font-weight: 300;
+}
+.btn:hover {
+	background: #fff;
+	color: #262626;
+} */
+/* @media (max-width: 991px){
+    .card {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 767px){
+    .btn-group .btn {
+        font-size: 9px;
+    }
+} */
+
+
+.input-quantity {
+    margin: 0;
+}
+
+
+
+
+/* My own Css */
+.product-card {
+    border: 0.2px solid #FAF9F6;
+    padding: 0;
+    width: 100%;
+}
+.product-card:hover {
+    transition: all .4s ease;
+    -webkit-transition: all .6s ease;
+    transform: scale(1.1);
+    box-shadow:0px 0px 10px  #90EE90;
+}
+
+.card-title-div {
+    padding: 0;
+}
+
+.card-content-div {
+    margin-bottom: 16px;
+}
+
+.footer-btn {
+    border-spacing: 0;
+    padding: 0;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.left-btn {
+    margin-right: 8px;
+}
+
+.right-btn {
+    padding-top: 3px;;
+    margin-left: 8px;
+    border-bottom: 0;
+    border-top: 0;
+}
+
+.input-group-btn {
+    margin-top: -2.2px;
+    margin-bottom: -0.5px;
+}
+
+.input-number {
+    border-width: 0;
+}
+
+.quantity-input {
+    border-width: 0;
+}
+
+.quantity-div {
+    border: 1px solid green;
+}
+
+
+
+/* Faaltu css */
